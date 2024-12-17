@@ -1,0 +1,3284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sum Ultimate - E-commerce </title>
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo/logo.png" type="image/x-icon">
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style-prefix.css">
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <div class="overlay" data-overlay></div>
+  <!--
+    - MODAL
+  -->
+  <div class="modal" data-modal>
+
+    <div class="modal-close-overlay" data-modal-overlay></div>
+
+    <div class="modal-content">
+
+      <button class="modal-close-btn" data-modal-close>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+
+      <div class="newsletter-img">
+        <img src="./assets/images/enquiry_doctor.jpeg" alt="enquiry Now" width="300" height="400">
+      </div>
+
+      <div class="newsletter">
+
+        <form action="#">
+
+          <div class="newsletter-header">
+
+            <h3 class="newsletter-title">Enquiry Now.</h3>
+
+            <p class="newsletter-desc">
+              Enquire now at <b>Sum Ultimate MediCare</b> to receive updates on the latest products and discounts.
+            </p>
+            
+
+          </div>
+
+          <input type="email" name="email" class="email-field" placeholder="Email Address" required>
+
+          <button type="submit" class="btn-newsletter">Enquiry Now</button>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+  <!--
+    - NOTIFICATION TOAST
+  -->
+  <div class="notification-toast" data-toast>
+
+    <button class="toast-close-btn" data-toast-close>
+      <ion-icon name="close-outline"></ion-icon>
+    </button>
+
+    <div class="toast-banner">
+      <img src="./assets/images/products/1.jpg" alt="Rose Gold Earrings" width="80" height="70">
+    </div>
+
+    <div class="toast-detail">
+
+      <p class="toast-message">
+        Someone in new just bought
+      </p>
+
+      <p class="toast-title">
+     Himalaya Baby Care
+      </p>
+
+      <p class="toast-meta">
+        <time datetime="PT2M">2 Minutes</time> ago
+      </p>
+
+    </div>
+
+  </div>
+  <!--
+    - HEADER
+  -->
+  <header>
+
+    <div class="header-top">
+
+      <div class="container">
+
+        <ul class="header-social-container">
+
+          <li>
+            <a href="https://www.facebook.com/soa.sumum" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://twitter.com/x/migrate?tok=7b2265223a222f53554d5f556c74696d617465222c2274223a313733343434313338377dd650a47803ac5fef0fdbbc54905a0047" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UCUMaVisWVERS8CUD1AxYcag/videos?view=0&sort=dd&shelf_id=0" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/sum_ultimate_medicare/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://in.linkedin.com/company/sum-ultimate-medicare" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="header-alert-news">
+          <p>
+            <b>Sum Ultimate  MediCare</b>
+           Transforming Lives
+          </p>
+        </div>
+
+        <div class="header-top-actions">
+
+          <select name="language">
+
+            <option value="english">English</option>
+            <option value="hindi">Hindi</option>
+            <option value="Oriya">Oriya</option>
+            <option value="Bengali">Bengali</option>
+            <option value="Spanish">Spanish</option>
+          </select>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="header-main">
+
+      <div class="container">
+
+        <a href="#" class="header-logo">
+          <img src="./assets/images/logo/logo.png" alt="Sum Logo" width="100" height="86">
+        </a>
+
+        <div class="header-search-container">
+
+          <input type="search" name="search" class="search-field" placeholder="Enter your Search.....">
+
+          <button class="search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="header-user-actions">
+
+          <button class="action-btn">
+            <ion-icon name="person-outline"></ion-icon>
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <nav class="desktop-navigation-menu">
+
+      <div class="container">
+
+        <ul class="desktop-menu-category-list">
+    <!--
+          
+    
+    -->
+     
+          <li class="menu-category">
+            <a href="#" class="menu-title">Ultimate Home</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Ultimate Products</a>
+
+            <div class="dropdown-panel">
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">MediCare</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Wheelchairs and Walkers</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Blood Glucose Monitors</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Inpatient Hospital Services</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Physical Therapy</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Home Health Care Services</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/medical-banner-1.jpeg" alt="headphone collection" width="250"
+                      height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Healthy Food</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Yogurt</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Oatmeal</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Whole-Grain Bread or Crackers</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Boiled Eggs</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Salads</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/heathcare_banner.webp" alt="men's fashion" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Health Care</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Thermometers</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Blood Pressure Monitors</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Pulse Oximeters</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Bandages and Dressings</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Stethoscope</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/first_aid_banner.jpeg" alt="women's fashion" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Departments</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Emergency Department (ER)</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Cardiology</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Neurology</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Pediatrics</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Obstetrics and Gynecology </a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/depart_banner.jpeg" alt="mouse collection" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Ultimate Contacts</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Ultimate
+                  Doctors</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Ultimate
+                  Media Coverage</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Ultimate
+                  Packagess</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Ultimate
+                  CSR Activities</a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Ultimate Gallery</a>
+
+   
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Ultimate
+                  Doctors</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Ultimate
+                  Media Coverage</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Ultimate
+                  Packagess</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Ultimate
+                  CSR Activities</a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+    <div class="mobile-bottom-navigation">
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="bag-handle-outline"></ion-icon>
+
+        <span class="count">0</span>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="home-outline"></ion-icon>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="heart-outline"></ion-icon>
+
+        <span class="count">0</span>
+      </button>
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="grid-outline"></ion-icon>
+      </button>
+
+    </div>
+
+    <nav class="mobile-navigation-menu  has-scrollbar" data-mobile-menu>
+
+      <div class="menu-top">
+        <h2 class="menu-title">Menu</h2>
+
+        <button class="menu-close-btn" data-mobile-menu-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+      </div>
+
+      <ul class="mobile-menu-category-list">
+
+        <li class="menu-category">
+          <a href="#" class="menu-title">Home</a>
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Department</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Radiology</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Surgery</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">ntensive Care Unit (ICU)</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Gastroenterology</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Department</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Dermatology</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Psychiatry</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Endocrinology</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Medical Kit</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+
+
+      </ul>
+
+      <div class="menu-bottom">
+
+        <ul class="menu-category-list">
+
+          <li class="menu-category">
+
+            <button class="accordion-menu" data-accordion-btn>
+              <p class="menu-title">Language</p>
+
+              <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
+            </button>
+
+            <ul class="submenu-category-list" data-accordion>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">English</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">Hindi</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">Oriya</a>
+              </li>
+
+            </ul>
+
+          </li>
+
+          <li class="menu-category">
+            <button class="accordion-menu" data-accordion-btn>
+              <p class="menu-title">Currency</p>
+              <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
+            </button>
+
+            <ul class="submenu-category-list" data-accordion>
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">USD &dollar;</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">EUR &euro;</a>
+              </li>
+            </ul>
+          </li>
+
+        </ul>
+
+        <ul class="menu-social-container">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+  </header>
+  <!--
+    - MAIN
+  -->
+
+  <main>
+
+    <!--
+      - BANNER
+    -->
+
+    <div class="banner">
+
+      <div class="container">
+
+        <div class="slider-container has-scrollbar">
+
+          <div class="slider-item">
+
+            <img src="./assets/images/banner-1.jpg" alt="women's latest fashion sale" class="banner-img">
+          </div>
+          <div class="slider-item">
+
+            <img src="./assets/images/banner-6.jpeg" alt="women's latest fashion sale" class="banner-img">
+          </div>
+          <div class="slider-item">
+
+            <img src="./assets/images/banner-3.jpg" alt="women's latest fashion sale" class="banner-img">
+          </div>
+          <div class="slider-item">
+
+            <img src="./assets/images/banner-5.jpg" alt="women's latest fashion sale" class="banner-img">
+          </div>
+          <div class="slider-item">
+
+            <img src="./assets/images/banner-1.jpg" alt="women's latest fashion sale" class="banner-img">
+          </div>
+          <div class="slider-item">
+
+            <img src="./assets/images/banner-2.jpg" alt="women's latest fashion sale" class="banner-img">
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    
+
+
+
+    <!--
+      - CATEGORY
+    -->
+
+    <div class="category">
+
+      <div class="container">
+
+        <div class="category-item-container has-scrollbar">
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/medical-banner-1.jpeg" alt="Medicine" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Medicine</h3>
+
+                <p class="category-item-amount">(4144)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/heathcare_banner.webp" alt="winter wear" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Health Care</h3>
+
+                <p class="category-item-amount">(73)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/medicare.jpeg" alt="glasses & lens" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">MediCare</h3>
+
+                <p class="category-item-amount">(168)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+  
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/medical-banner-1.jpeg" alt="Medicine" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Medicine</h3>
+
+                <p class="category-item-amount">(144)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/heathcare_banner.webp" alt="winter wear" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Health Care</h3>
+
+                <p class="category-item-amount">(73)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/medicare.jpeg" alt="glasses & lens" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">MediCare</h3>
+
+                <p class="category-item-amount">(168)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/medical-banner-1.jpeg" alt="Medicine" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Medicine</h3>
+
+                <p class="category-item-amount">(144)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/heathcare_banner.webp" alt="winter wear" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Health Care</h3>
+
+                <p class="category-item-amount">(73)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/medicare.jpeg" alt="glasses & lens" width="30">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">MediCare</h3>
+
+                <p class="category-item-amount">(168)</p>
+              </div>
+
+              <a href="#" class="category-btn">Show all</a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <!--
+      - PRODUCT
+    -->
+
+    <div class="product-container">
+
+      <div class="container">
+
+
+        <!--
+          - Product SIDEBAR
+        -->
+
+        <div class="sidebar  has-scrollbar" data-mobile-menu>
+
+
+          <!-- 1st  category -->
+          <div class="sidebar-category">
+
+            <div class="sidebar-top">
+              <h2 class="sidebar-title">Products</h2>
+
+              <button class="sidebar-close-btn" data-mobile-menu-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </div>
+
+            <ul class="sidebar-menu-category-list">
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/medicine.jpeg" alt="clothes" width="20" height="20"
+                      class="menu-title-img">
+
+                    <p class="menu-title">Medicine</p>
+                  </div>
+
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Paracetamol</p>
+                      <data value="300" class="stock" title="Available Stock">300</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Ibuprofen</p>
+                      <data value="60" class="stock" title="Available Stock">160</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Cetrizine</p>
+                      <data value="50" class="stock" title="Available Stock">510</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Amoxicillin</p>
+                      <data value="87" class="stock" title="Available Stock">87</data>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </li>
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/healthcare.jpeg" alt="footwear" class="menu-title-img" width="20"
+                      height="20">
+
+                    <p class="menu-title">HealthCare</p>
+                  </div>
+
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Hand Sanitizer</p>
+                      <data value="45" class="stock" title="Available Stock">425</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Digital Thermometer</p>
+                      <data value="75" class="stock" title="Available Stock">275</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Blood Pressure Monitor</p>
+                      <data value="35" class="stock" title="Available Stock">335</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Face Masks</p>
+                      <data value="26" class="stock" title="Available Stock">1126</data>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </li>
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/wound.jpeg" alt="clothes" class="menu-title-img" width="20"
+                      height="20">
+
+                    <p class="menu-title">Wound Care</p>
+                  </div>
+
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Bandages</p>
+                      <data value="46" class="stock" title="Available Stock">416</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">dressings</p>
+                      <data value="73" class="stock" title="Available Stock">373</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">adhesive tapes</p>
+                      <data value="61" class="stock" title="Available Stock">561</data>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </li>
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/respitatory.jpeg" alt="perfume" class="menu-title-img" width="20"
+                      height="20">
+
+                    <p class="menu-title">Respiratory Devices</p>
+                  </div>
+
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Oxygen cylinders</p>
+                      <data value="12" class="stock" title="Available Stock">112 pcs</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Deodorant</p>
+                      <data value="60" class="stock" title="Available Stock">60 pcs</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">nebulizers</p>
+                      <data value="50" class="stock" title="Available Stock">510 pcs</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">CPAP</p>
+                      <data value="87" class="stock" title="Available Stock">187 pcs</data>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </li>
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/Laboratory.jpeg" alt="cosmetics" class="menu-title-img" width="20"
+                      height="20">
+
+                    <p class="menu-title">Laboratory Supplies</p>
+                  </div>
+
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Test tubes</p>
+                      <data value="68" class="stock" title="Available Stock">1168</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Sunscreen</p>
+                      <data value="46" class="stock" title="Available Stock">46</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">syringes</p>
+                      <data value="79" class="stock" title="Available Stock">729</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">vials</p>
+                      <data value="23" class="stock" title="Available Stock">23</data>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </li>
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/Patient.jpeg" alt="glasses" class="menu-title-img" width="20"
+                      height="20">
+
+                    <p class="menu-title">Patient Monitoring Systems</p>
+                  </div>
+
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Blood pressure monitors,</p>
+                      <data value="50" class="stock" title="Available Stock">250</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">pulse oximeters</p>
+                      <data value="48" class="stock" title="Available Stock">1148</data>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </li>
+
+
+
+            </ul>
+
+          </div>
+
+          <div class="product-showcase">
+
+            <h3 class="showcase-heading">best sellers</h3>
+
+            <div class="showcase-wrapper">
+
+              <div class="showcase-container">
+
+                <div class="showcase">
+
+                  <a href="#" class="showcase-img-box">
+                    <img src="./assets/images/products/1.jpg" alt="Himalya Body Wash" width="75" height="75"
+                      class="showcase-img">
+                  </a>
+
+                  <div class="showcase-content">
+
+                    <a href="#">
+                      <h4 class="showcase-title"> Himalya baby Body Wash</h4>
+                    </a>
+
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                    <div class="price-box">
+                      <del>₹145.00</del>
+                      <p class="price">₹74.00</p>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="showcase">
+
+                  <a href="#" class="showcase-img-box">
+                    <img src="./assets/images/products/2.jpg" alt="Huggies" class="showcase-img"
+                      width="75" height="75">
+                  </a>
+
+                  <div class="showcase-content">
+
+                    <a href="#">
+                      <h4 class="showcase-title">Huggies</h4>
+                    </a>
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half-outline"></ion-icon>
+                    </div>
+
+                    <div class="price-box">
+                      <del>₹17.00</del>
+                      <p class="price">₹9.00</p>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="showcase">
+
+                  <a href="#" class="showcase-img-box">
+                    <img src="./assets/images/products/3.jpeg" alt="Cerelac" class="showcase-img" width="75"
+                      height="75">
+                  </a>
+
+                  <div class="showcase-content">
+
+                    <a href="#">
+                      <h4 class="showcase-title">Cerelac</h4>
+                    </a>
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half-outline"></ion-icon>
+                    </div>
+
+                    <div class="price-box">
+                      <del>₹257.00</del>
+                      <p class="price">₹197.00</p>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="showcase">
+
+                  <a href="#" class="showcase-img-box">
+                    <img src="./assets/images/products/4.jpeg" alt="woolen hat for men" class="showcase-img" width="75"
+                      height="75">
+                  </a>
+
+                  <div class="showcase-content">
+
+                    <a href="#">
+                      <h4 class="showcase-title">Lactogen Pro Milk</h4>
+                    </a>
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                    <div class="price-box">
+                      <del>₹297.00</del>
+                      <p class="price">₹253.00</p>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="product-box">
+
+          <!--
+            - PRODUCT MINIMAL
+          -->
+
+          <div class="product-minimal">
+
+            <div class="product-showcase">
+
+              <h2 class="title">Medicare</h2>
+
+              <div class="showcase-wrapper has-scrollbar">
+
+                <div class="showcase-container">
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/Lamivudine.jpg" alt="relaxed short full sleeve t-shirt" width="70" class="showcase-img">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title"></h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Lamivudine</a>
+
+                      <div class="price-box">
+                        <p class="price">₹2,300</p>
+                        <del>₹2,000</del>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/Rifampicin.jpeg" alt="relaxed short full sleeve t-shirt" width="70" class="showcase-img">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title"></h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Rifampicin</a>
+
+                      <div class="price-box">
+                        <p class="price">₹1,300</p>
+                        <del>₹1,200</del>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/Bedaquiline.jpeg" alt="relaxed short full sleeve t-shirt" width="70" class="showcase-img">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title"></h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Bedaquiline</a>
+
+                      <div class="price-box">
+                        <p class="price">₹700</p>
+                        <del>₹630</del>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/Linezolid.jpeg" alt="relaxed short full sleeve t-shirt" width="70" class="showcase-img">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title"></h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Linezolid</a>
+
+                      <div class="price-box">
+                        <p class="price">₹300</p>
+                        <del>₹240</del>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="showcase-container">
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/Lamivudine.jpg" alt="relaxed short full sleeve t-shirt" width="70" class="showcase-img">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title"></h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Lamivudine</a>
+
+                      <div class="price-box">
+                        <p class="price">₹2,300</p>
+                        <del>₹2,000</del>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/Rifampicin.jpeg" alt="relaxed short full sleeve t-shirt" width="70" class="showcase-img">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title"></h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Rifampicin</a>
+
+                      <div class="price-box">
+                        <p class="price">₹1,300</p>
+                        <del>₹1,200</del>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/Bedaquiline.jpeg" alt="relaxed short full sleeve t-shirt" width="70" class="showcase-img">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title"></h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Bedaquiline</a>
+
+                      <div class="price-box">
+                        <p class="price">₹700</p>
+                        <del>₹630</del>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/Linezolid.jpeg" alt="relaxed short full sleeve t-shirt" width="70" class="showcase-img">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title"></h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Linezolid</a>
+
+                      <div class="price-box">
+                        <p class="price">₹300</p>
+                        <del>₹240</del>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+        
+
+              </div>
+
+            </div>
+
+            <div class="product-showcase">
+            
+              <h2 class="title">HealthCare</h2>
+            
+              <div class="showcase-wrapper  has-scrollbar">
+            
+                <div class="showcase-container">
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/Hand Sanitizer.jpg" alt="running & trekking shoes - white" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Hand Sanitizer </h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">500 ml</a>
+            
+                      <div class="price-box">
+                        <p class="price">₹1,300.89</p>
+                        <del>₹799.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/DigitalThermometer.webp" alt="trekking & running shoes - black" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">DigitalT hermometer</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">12 hr</a>
+            
+                      <div class="price-box">
+                        <p class="price">₹520.89</p>
+                        <del>₹299.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/PulseOximeter.webp" alt="womens party wear shoes" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Pulse Oximeter</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">15 Hr</a>
+            
+                      <div class="price-box">
+                        <p class="price">₹830.00</p>
+                        <del>₹700.88</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/Glucose.jpeg" alt="sports claw women's shoes" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Glucose Monitoring Kit</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">5 star</a>
+            
+                      <div class="price-box">
+                        <p class="price">₹1230.99</p>
+                        <del>₹900.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                </div>
+            
+                <div class="showcase-container">
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/Hand Sanitizer.jpg" alt="running & trekking shoes - white" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Hand Sanitizer </h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">500 ml</a>
+            
+                      <div class="price-box">
+                        <p class="price">₹1,300.89</p>
+                        <del>₹799.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/DigitalThermometer.webp" alt="trekking & running shoes - black" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">DigitalT hermometer</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">12 hr</a>
+            
+                      <div class="price-box">
+                        <p class="price">₹520.89</p>
+                        <del>₹299.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/PulseOximeter.webp" alt="womens party wear shoes" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Pulse Oximeter</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">15 Hr</a>
+            
+                      <div class="price-box">
+                        <p class="price">₹830.00</p>
+                        <del>₹700.88</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/Glucose.jpeg" alt="sports claw women's shoes" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Glucose Monitoring Kit</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">5 star</a>
+            
+                      <div class="price-box">
+                        <p class="price">₹1230.99</p>
+                        <del>₹900.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                </div>
+            
+              </div>
+            
+            </div>
+
+            <div class="product-showcase">
+            
+              <h2 class="title">Top Rated</h2>
+            
+              <div class="showcase-wrapper  has-scrollbar">
+            
+                <div class="showcase-container">
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/1.jpg" alt="pocket watch leather pouch" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Himalaya Body Wash</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Body Wash</a>
+            
+                      <div class="price-box">
+                        <p class="price">₹500.8</p>
+                        <del>₹300.8</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/6.jpg" alt="silver deer heart necklace" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Nan Pro</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Nurtient</a>
+            
+                      <div class="price-box">
+                        <p class="price">₹500.8</p>
+                        <del>₹400.8</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/5.jpeg" alt="titan 100 ml womens perfume" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Milk Powder</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Perfume</a>
+            
+                      <div class="price-box">
+                        <p class="price">₹500.8</p>
+                        <del>₹380.8</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+    
+            
+                </div>
+            
+                <div class="showcase-container">
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/1.jpg" alt="pocket watch leather pouch" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Himalaya Body Wash</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Body Wash</a>
+            
+                      <div class="price-box">
+                        <p class="price">₹500.8</p>
+                        <del>₹300.8</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/6.jpg" alt="silver deer heart necklace" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Nan Pro</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Nurtient</a>
+            
+                      <div class="price-box">
+                        <p class="price">₹500.8</p>
+                        <del>₹400.8</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/5.jpeg" alt="titan 100 ml womens perfume" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Milk Powder</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Perfume</a>
+            
+                      <div class="price-box">
+                        <p class="price">₹500.8</p>
+                        <del>₹380.8</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+    
+            
+                </div>
+            
+              </div>
+            
+            </div>
+
+          </div>
+
+
+
+          <!--
+            - PRODUCT FEATURED
+          -->
+
+          <div class="product-featured">
+
+            <h2 class="title">Deal of the day</h2>
+
+            <div class="showcase-wrapper has-scrollbar">
+
+              <div class="showcase-container">
+
+                <div class="showcase">
+                  
+                  <div class="showcase-banner">
+                    <img src="./assets/images/products/mass.webp" alt="shampoo, conditioner & facewash packs" class="showcase-img">
+                  </div>
+
+                  <div class="showcase-content">
+                    
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+
+                    <a href="#">
+                      <h3 class="showcase-title">Avvatar Mass   Gainer 2kg</h3>
+                    </a>
+
+                    <p class="showcase-desc">
+                      Belgian Chocolate | 33 Servings | Sugar free | Gluten free | Soya free 
+                    </p>
+
+                    <div class="price-box">
+                      <p class="price">₹2500.28</p>
+
+                      <p class="price">₹1900.00</p>
+                    </div>
+
+                    <button class="add-cart-btn">add to cart</button>
+
+                    <div class="showcase-status">
+                      <div class="wrapper">
+                        <p>
+                          already sold: <b>220</b>
+                        </p>
+
+                        <p>
+                          available: <b>100</b>
+                        </p>
+                      </div>
+
+                      <div class="showcase-status-bar"></div>
+                    </div>
+
+                    <div class="countdown-box">
+
+                      <p class="countdown-desc">
+                        Hurry Up! Offer ends in:
+                      </p>
+
+                      <div class="countdown">
+
+                        <div class="countdown-content">
+
+                          <p class="display-number">360</p>
+
+                          <p class="display-text">Days</p>
+
+                        </div>
+
+                        <div class="countdown-content">
+                          <p class="display-number">24</p>
+                          <p class="display-text">Hours</p>
+                        </div>
+
+                        <div class="countdown-content">
+                          <p class="display-number">59</p>
+                          <p class="display-text">Min</p>
+                        </div>
+
+                        <div class="countdown-content">
+                          <p class="display-number">00</p>
+                          <p class="display-text">Sec</p>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="showcase-container">
+
+                <div class="showcase">
+                  
+                  <div class="showcase-banner">
+                    <img src="./assets/images/products/mass.webp" alt="shampoo, conditioner & facewash packs" class="showcase-img">
+                  </div>
+
+                  <div class="showcase-content">
+                    
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+
+                    <a href="#">
+                      <h3 class="showcase-title">Avvatar Mass   Gainer 2kg</h3>
+                    </a>
+
+                    <p class="showcase-desc">
+                      Belgian Chocolate | 33 Servings | Sugar free | Gluten free | Soya free 
+                    </p>
+
+                    <div class="price-box">
+                      <p class="price">₹2500.28</p>
+
+                      <p class="price">₹1900.00</p>
+                    </div>
+
+                    <button class="add-cart-btn">add to cart</button>
+
+                    <div class="showcase-status">
+                      <div class="wrapper">
+                        <p>
+                          already sold: <b>220</b>
+                        </p>
+
+                        <p>
+                          available: <b>100</b>
+                        </p>
+                      </div>
+
+                      <div class="showcase-status-bar"></div>
+                    </div>
+
+                    <div class="countdown-box">
+
+                      <p class="countdown-desc">
+                        Hurry Up! Offer ends in:
+                      </p>
+
+                      <div class="countdown">
+
+                        <div class="countdown-content">
+
+                          <p class="display-number">360</p>
+
+                          <p class="display-text">Days</p>
+
+                        </div>
+
+                        <div class="countdown-content">
+                          <p class="display-number">24</p>
+                          <p class="display-text">Hours</p>
+                        </div>
+
+                        <div class="countdown-content">
+                          <p class="display-number">59</p>
+                          <p class="display-text">Min</p>
+                        </div>
+
+                        <div class="countdown-content">
+                          <p class="display-number">00</p>
+                          <p class="display-text">Sec</p>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="showcase-container">
+
+                <div class="showcase">
+                  
+                  <div class="showcase-banner">
+                    <img src="./assets/images/products/mass.webp" alt="shampoo, conditioner & facewash packs" class="showcase-img">
+                  </div>
+
+                  <div class="showcase-content">
+                    
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+
+                    <a href="#">
+                      <h3 class="showcase-title">Avvatar Mass   Gainer 2kg</h3>
+                    </a>
+
+                    <p class="showcase-desc">
+                      Belgian Chocolate | 33 Servings | Sugar free | Gluten free | Soya free 
+                    </p>
+
+                    <div class="price-box">
+                      <p class="price">₹2500.28</p>
+
+                      <p class="price">₹1900.00</p>
+                    </div>
+
+                    <button class="add-cart-btn">add to cart</button>
+
+                    <div class="showcase-status">
+                      <div class="wrapper">
+                        <p>
+                          already sold: <b>220</b>
+                        </p>
+
+                        <p>
+                          available: <b>100</b>
+                        </p>
+                      </div>
+
+                      <div class="showcase-status-bar"></div>
+                    </div>
+
+                    <div class="countdown-box">
+
+                      <p class="countdown-desc">
+                        Hurry Up! Offer ends in:
+                      </p>
+
+                      <div class="countdown">
+
+                        <div class="countdown-content">
+
+                          <p class="display-number">360</p>
+
+                          <p class="display-text">Days</p>
+
+                        </div>
+
+                        <div class="countdown-content">
+                          <p class="display-number">24</p>
+                          <p class="display-text">Hours</p>
+                        </div>
+
+                        <div class="countdown-content">
+                          <p class="display-number">59</p>
+                          <p class="display-text">Min</p>
+                        </div>
+
+                        <div class="countdown-content">
+                          <p class="display-number">00</p>
+                          <p class="display-text">Sec</p>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="showcase-container">
+
+                <div class="showcase">
+                  
+                  <div class="showcase-banner">
+                    <img src="./assets/images/products/mass.webp" alt="shampoo, conditioner & facewash packs" class="showcase-img">
+                  </div>
+
+                  <div class="showcase-content">
+                    
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+
+                    <a href="#">
+                      <h3 class="showcase-title">Avvatar Mass   Gainer 2kg</h3>
+                    </a>
+
+                    <p class="showcase-desc">
+                      Belgian Chocolate | 33 Servings | Sugar free | Gluten free | Soya free 
+                    </p>
+
+                    <div class="price-box">
+                      <p class="price">₹2500.28</p>
+
+                      <p class="price">₹1900.00</p>
+                    </div>
+
+                    <button class="add-cart-btn">add to cart</button>
+
+                    <div class="showcase-status">
+                      <div class="wrapper">
+                        <p>
+                          already sold: <b>220</b>
+                        </p>
+
+                        <p>
+                          available: <b>100</b>
+                        </p>
+                      </div>
+
+                      <div class="showcase-status-bar"></div>
+                    </div>
+
+                    <div class="countdown-box">
+
+                      <p class="countdown-desc">
+                        Hurry Up! Offer ends in:
+                      </p>
+
+                      <div class="countdown">
+
+                        <div class="countdown-content">
+
+                          <p class="display-number">360</p>
+
+                          <p class="display-text">Days</p>
+
+                        </div>
+
+                        <div class="countdown-content">
+                          <p class="display-number">24</p>
+                          <p class="display-text">Hours</p>
+                        </div>
+
+                        <div class="countdown-content">
+                          <p class="display-number">59</p>
+                          <p class="display-text">Min</p>
+                        </div>
+
+                        <div class="countdown-content">
+                          <p class="display-number">00</p>
+                          <p class="display-text">Sec</p>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+
+
+          <!--
+            - PRODUCT GRID
+          -->
+
+          <div class="product-main">
+
+            <h2 class="title">New Products</h2>
+
+            <div class="product-grid">
+    <!-- 1 , 2, 3 -->
+              <div class="showcase">
+
+                <div class="showcase-banner">
+
+                  <img src="./assets/images/products/Omnipod.jpeg" alt="Omnipod" width="300" class="product-img default">
+                  <img src="./assets/images/products/Omnipod.jpeg" alt="Omnipod" width="300" class="product-img hover">
+
+                  <p class="showcase-badge">15%</p>
+
+                  <div class="showcase-actions">
+
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+                <div class="showcase-content">
+
+                  <a href="#" class="showcase-category">Omnipod 5 Insulin Management System</a>
+
+                  <a href="#">
+                    <h3 class="showcase-title">Health Care Product</h3>
+                  </a>
+
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+   
+                  <div class="price-box">
+                    <p class="price">₹4500.00</p>
+                    <del>₹2892.99</del>
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="showcase">
+
+                <div class="showcase-banner">
+
+                  <img src="./assets/images/products/PhilipsToothbrush.jpg" alt="PhilipsToothbrush" width="300" class="product-img default">
+                  <img src="./assets/images/products/PhilipsToothbrush.jpg" alt="PhilipsToothbrush" width="300" class="product-img hover">
+
+                  <p class="showcase-badge">28%</p>
+
+                  <div class="showcase-actions">
+
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+                <div class="showcase-content">
+
+                  <a href="#" class="showcase-category">Philips  Electric Toothbrush</a>
+
+                  <a href="#">
+                    <h3 class="showcase-title">Health Care Product</h3>
+                  </a>
+
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+   
+                  <div class="price-box">
+                    <p class="price">₹48009.20</p>
+                    <del>₹3992.99</del>
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="showcase">
+
+                <div class="showcase-banner">
+
+                  <img src="./assets/images/products/EargoHearingAids.png" alt="EargoHearingAids" width="300" class="product-img default">
+                  <img src="./assets/images/products/EargoHearingAids.png" alt="EargoHearingAids" width="300" class="product-img hover">
+
+                  <p class="showcase-badge">4%</p>
+
+                  <div class="showcase-actions">
+
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+                <div class="showcase-content">
+
+                  <a href="#" class="showcase-category">Eargo 5 Hearing Aids</a>
+
+                  <a href="#">
+                    <h3 class="showcase-title">Health Care Product</h3>
+                  </a>
+
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+   
+                  <div class="price-box">
+                    <p class="price">₹3000.00</p>
+                    <del>₹2902.99</del>
+                  </div>
+
+                </div>
+
+              </div>
+ <!-- 4, 5, 6 -->
+ <div class="showcase">
+
+  <div class="showcase-banner">
+
+    <img src="./assets/images/products/Omnipod.jpeg" alt="Omnipod" width="300" class="product-img default">
+    <img src="./assets/images/products/Omnipod.jpeg" alt="Omnipod" width="300" class="product-img hover">
+
+    <p class="showcase-badge">15%</p>
+
+    <div class="showcase-actions">
+
+      <button class="btn-action">
+        <ion-icon name="heart-outline"></ion-icon>
+      </button>
+
+      <button class="btn-action">
+        <ion-icon name="eye-outline"></ion-icon>
+      </button>
+
+      <button class="btn-action">
+        <ion-icon name="repeat-outline"></ion-icon>
+      </button>
+
+      <button class="btn-action">
+        <ion-icon name="bag-add-outline"></ion-icon>
+      </button>
+
+    </div>
+
+  </div>
+
+  <div class="showcase-content">
+
+    <a href="#" class="showcase-category">Omnipod 5 Insulin Management System</a>
+
+    <a href="#">
+      <h3 class="showcase-title">Health Care Product</h3>
+    </a>
+
+    <div class="showcase-rating">
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star-outline"></ion-icon>
+      <ion-icon name="star-outline"></ion-icon>
+    </div>
+
+    <div class="price-box">
+      <p class="price">₹4500.00</p>
+      <del>₹2892.99</del>
+    </div>
+
+  </div>
+
+</div>
+<div class="showcase">
+
+  <div class="showcase-banner">
+
+    <img src="./assets/images/products/PhilipsToothbrush.jpg" alt="PhilipsToothbrush" width="300" class="product-img default">
+    <img src="./assets/images/products/PhilipsToothbrush.jpg" alt="PhilipsToothbrush" width="300" class="product-img hover">
+
+    <p class="showcase-badge">28%</p>
+
+    <div class="showcase-actions">
+
+      <button class="btn-action">
+        <ion-icon name="heart-outline"></ion-icon>
+      </button>
+
+      <button class="btn-action">
+        <ion-icon name="eye-outline"></ion-icon>
+      </button>
+
+      <button class="btn-action">
+        <ion-icon name="repeat-outline"></ion-icon>
+      </button>
+
+      <button class="btn-action">
+        <ion-icon name="bag-add-outline"></ion-icon>
+      </button>
+
+    </div>
+
+  </div>
+
+  <div class="showcase-content">
+
+    <a href="#" class="showcase-category">Philips  Electric Toothbrush</a>
+
+    <a href="#">
+      <h3 class="showcase-title">Health Care Product</h3>
+    </a>
+
+    <div class="showcase-rating">
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star-outline"></ion-icon>
+      <ion-icon name="star-outline"></ion-icon>
+    </div>
+
+    <div class="price-box">
+      <p class="price">₹48009.20</p>
+      <del>₹3992.99</del>
+    </div>
+
+  </div>
+
+</div>
+<div class="showcase">
+
+  <div class="showcase-banner">
+
+    <img src="./assets/images/products/EargoHearingAids.png" alt="EargoHearingAids" width="300" class="product-img default">
+    <img src="./assets/images/products/EargoHearingAids.png" alt="EargoHearingAids" width="300" class="product-img hover">
+
+    <p class="showcase-badge">4%</p>
+
+    <div class="showcase-actions">
+
+      <button class="btn-action">
+        <ion-icon name="heart-outline"></ion-icon>
+      </button>
+
+      <button class="btn-action">
+        <ion-icon name="eye-outline"></ion-icon>
+      </button>
+
+      <button class="btn-action">
+        <ion-icon name="repeat-outline"></ion-icon>
+      </button>
+
+      <button class="btn-action">
+        <ion-icon name="bag-add-outline"></ion-icon>
+      </button>
+
+    </div>
+
+  </div>
+
+  <div class="showcase-content">
+
+    <a href="#" class="showcase-category">Eargo 5 Hearing Aids</a>
+
+    <a href="#">
+      <h3 class="showcase-title">Health Care Product</h3>
+    </a>
+
+    <div class="showcase-rating">
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star-outline"></ion-icon>
+      <ion-icon name="star-outline"></ion-icon>
+    </div>
+
+    <div class="price-box">
+      <p class="price">₹3000.00</p>
+      <del>₹2902.99</del>
+    </div>
+
+  </div>
+
+</div>
+          <!-- 7 ,  8 , 9 -->
+          <div class="showcase">
+
+            <div class="showcase-banner">
+
+              <img src="./assets/images/products/Omnipod.jpeg" alt="Omnipod" width="300" class="product-img default">
+              <img src="./assets/images/products/Omnipod.jpeg" alt="Omnipod" width="300" class="product-img hover">
+
+              <p class="showcase-badge">15%</p>
+
+              <div class="showcase-actions">
+
+                <button class="btn-action">
+                  <ion-icon name="heart-outline"></ion-icon>
+                </button>
+
+                <button class="btn-action">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </button>
+
+                <button class="btn-action">
+                  <ion-icon name="repeat-outline"></ion-icon>
+                </button>
+
+                <button class="btn-action">
+                  <ion-icon name="bag-add-outline"></ion-icon>
+                </button>
+
+              </div>
+
+            </div>
+
+            <div class="showcase-content">
+
+              <a href="#" class="showcase-category">Omnipod 5 Insulin Management System</a>
+
+              <a href="#">
+                <h3 class="showcase-title">Health Care Product</h3>
+              </a>
+
+              <div class="showcase-rating">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+              </div>
+
+              <div class="price-box">
+                <p class="price">₹4500.00</p>
+                <del>₹2892.99</del>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="showcase">
+
+            <div class="showcase-banner">
+
+              <img src="./assets/images/products/PhilipsToothbrush.jpg" alt="PhilipsToothbrush" width="300" class="product-img default">
+              <img src="./assets/images/products/PhilipsToothbrush.jpg" alt="PhilipsToothbrush" width="300" class="product-img hover">
+
+              <p class="showcase-badge">28%</p>
+
+              <div class="showcase-actions">
+
+                <button class="btn-action">
+                  <ion-icon name="heart-outline"></ion-icon>
+                </button>
+
+                <button class="btn-action">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </button>
+
+                <button class="btn-action">
+                  <ion-icon name="repeat-outline"></ion-icon>
+                </button>
+
+                <button class="btn-action">
+                  <ion-icon name="bag-add-outline"></ion-icon>
+                </button>
+
+              </div>
+
+            </div>
+
+            <div class="showcase-content">
+
+              <a href="#" class="showcase-category">Philips  Electric Toothbrush</a>
+
+              <a href="#">
+                <h3 class="showcase-title">Health Care Product</h3>
+              </a>
+
+              <div class="showcase-rating">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+              </div>
+
+              <div class="price-box">
+                <p class="price">₹48009.20</p>
+                <del>₹3992.99</del>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="showcase">
+
+            <div class="showcase-banner">
+
+              <img src="./assets/images/products/EargoHearingAids.png" alt="EargoHearingAids" width="300" class="product-img default">
+              <img src="./assets/images/products/EargoHearingAids.png" alt="EargoHearingAids" width="300" class="product-img hover">
+
+              <p class="showcase-badge">4%</p>
+
+              <div class="showcase-actions">
+
+                <button class="btn-action">
+                  <ion-icon name="heart-outline"></ion-icon>
+                </button>
+
+                <button class="btn-action">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </button>
+
+                <button class="btn-action">
+                  <ion-icon name="repeat-outline"></ion-icon>
+                </button>
+
+                <button class="btn-action">
+                  <ion-icon name="bag-add-outline"></ion-icon>
+                </button>
+
+              </div>
+
+            </div>
+
+            <div class="showcase-content">
+
+              <a href="#" class="showcase-category">Eargo 5 Hearing Aids</a>
+
+              <a href="#">
+                <h3 class="showcase-title">Health Care Product</h3>
+              </a>
+
+              <div class="showcase-rating">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+              </div>
+
+              <div class="price-box">
+                <p class="price">₹3000.00</p>
+                <del>₹2902.99</del>
+              </div>
+
+            </div>
+
+          </div>
+<!-- 10, 11 , 12 -->
+<div class="showcase">
+
+  <div class="showcase-banner">
+
+    <img src="./assets/images/products/Omnipod.jpeg" alt="Omnipod" width="300" class="product-img default">
+    <img src="./assets/images/products/Omnipod.jpeg" alt="Omnipod" width="300" class="product-img hover">
+
+    <p class="showcase-badge">15%</p>
+
+    <div class="showcase-actions">
+
+      <button class="btn-action">
+        <ion-icon name="heart-outline"></ion-icon>
+      </button>
+
+      <button class="btn-action">
+        <ion-icon name="eye-outline"></ion-icon>
+      </button>
+
+      <button class="btn-action">
+        <ion-icon name="repeat-outline"></ion-icon>
+      </button>
+
+      <button class="btn-action">
+        <ion-icon name="bag-add-outline"></ion-icon>
+      </button>
+
+    </div>
+
+  </div>
+
+  <div class="showcase-content">
+
+    <a href="#" class="showcase-category">Omnipod 5 Insulin Management System</a>
+
+    <a href="#">
+      <h3 class="showcase-title">Health Care Product</h3>
+    </a>
+
+    <div class="showcase-rating">
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star-outline"></ion-icon>
+      <ion-icon name="star-outline"></ion-icon>
+    </div>
+
+    <div class="price-box">
+      <p class="price">₹4500.00</p>
+      <del>₹2892.99</del>
+    </div>
+
+  </div>
+
+</div>
+<div class="showcase">
+
+  <div class="showcase-banner">
+
+    <img src="./assets/images/products/PhilipsToothbrush.jpg" alt="PhilipsToothbrush" width="300" class="product-img default">
+    <img src="./assets/images/products/PhilipsToothbrush.jpg" alt="PhilipsToothbrush" width="300" class="product-img hover">
+
+    <p class="showcase-badge">28%</p>
+
+    <div class="showcase-actions">
+
+      <button class="btn-action">
+        <ion-icon name="heart-outline"></ion-icon>
+      </button>
+
+      <button class="btn-action">
+        <ion-icon name="eye-outline"></ion-icon>
+      </button>
+
+      <button class="btn-action">
+        <ion-icon name="repeat-outline"></ion-icon>
+      </button>
+
+      <button class="btn-action">
+        <ion-icon name="bag-add-outline"></ion-icon>
+      </button>
+
+    </div>
+
+  </div>
+
+  <div class="showcase-content">
+
+    <a href="#" class="showcase-category">Philips  Electric Toothbrush</a>
+
+    <a href="#">
+      <h3 class="showcase-title">Health Care Product</h3>
+    </a>
+
+    <div class="showcase-rating">
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star-outline"></ion-icon>
+      <ion-icon name="star-outline"></ion-icon>
+    </div>
+
+    <div class="price-box">
+      <p class="price">₹48009.20</p>
+      <del>₹3992.99</del>
+    </div>
+
+  </div>
+
+</div>
+<div class="showcase">
+
+  <div class="showcase-banner">
+
+    <img src="./assets/images/products/EargoHearingAids.png" alt="EargoHearingAids" width="300" class="product-img default">
+    <img src="./assets/images/products/EargoHearingAids.png" alt="EargoHearingAids" width="300" class="product-img hover">
+
+    <p class="showcase-badge">4%</p>
+
+    <div class="showcase-actions">
+
+      <button class="btn-action">
+        <ion-icon name="heart-outline"></ion-icon>
+      </button>
+
+      <button class="btn-action">
+        <ion-icon name="eye-outline"></ion-icon>
+      </button>
+
+      <button class="btn-action">
+        <ion-icon name="repeat-outline"></ion-icon>
+      </button>
+
+      <button class="btn-action">
+        <ion-icon name="bag-add-outline"></ion-icon>
+      </button>
+
+    </div>
+
+  </div>
+
+  <div class="showcase-content">
+
+    <a href="#" class="showcase-category">Eargo 5 Hearing Aids</a>
+
+    <a href="#">
+      <h3 class="showcase-title">Health Care Product</h3>
+    </a>
+
+    <div class="showcase-rating">
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star-outline"></ion-icon>
+      <ion-icon name="star-outline"></ion-icon>
+    </div>
+
+    <div class="price-box">
+      <p class="price">₹3000.00</p>
+      <del>₹2902.99</del>
+    </div>
+
+  </div>
+
+</div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+  </main>
+  <!--
+    - FOOTER
+  -->
+
+  <footer>
+
+    <div class="footer-category">
+
+      <div class="container">
+
+        <h2 class="footer-category-title">Brand directory</h2>
+
+        <div class="footer-category-box">
+
+          <h3 class="category-box-title">MediCare:</h3>
+          <a href="#" class="footer-category-link">Wheelchairs and Walkers</a>
+          <a href="#" class="footer-category-link">Blood Glucose Monitors</a>
+          <a href="#" class="footer-category-link">Inpatient Hospital Services</a>
+          <a href="#" class="footer-category-link">Physical Therapy</a>
+          <a href="#" class="footer-category-link"> Home Health Care Services</a>
+ 
+
+        </div>
+
+        <div class="footer-category-box">
+          <h3 class="category-box-title">Healthy Food  :</h3>
+          <a href="#" class="footer-category-link">Yogurt</a>
+          <a href="#" class="footer-category-link">Oatmeal</a>
+          <a href="#" class="footer-category-link">Whole-Grain Bread or Crackers</a>
+          <a href="#" class="footer-category-link">Boiled Eggs</a>
+          <a href="#" class="footer-category-link">Salads</a>
+          <a href="#" class="footer-category-link">Veg Soup</a>
+        </div>
+
+        <div class="footer-category-box">
+          <h3 class="category-box-title">Health Care
+             :</h3>
+<!--         
+             Thermometers
+            Blood Pressure Monitors
+            Pulse Oximeters
+            Bandages and Dressings
+            Stethoscope -->
+          <a href="#" class="footer-category-link">Thermometers</a>
+          <a href="#" class="footer-category-link">Blood Pressure Monitors</a>
+          <a href="#" class="footer-category-link">Pulse Oximeters</a>
+          <a href="#" class="footer-category-link">Pendants</a>
+          <a href="#" class="footer-category-link">Bandages and Dressings</a>
+          <a href="#" class="footer-category-link">Philips Toothbrush</a>
+          <a href="#" class="footer-category-link">Stethoscope</a>
+          <a href="#" class="footer-category-link">Omnipod</a>
+        
+        </div>
+
+        <div class="footer-category-box">
+          <h3 class="category-box-title">Departments
+          </h3>
+          <!-- -->
+        
+          <a href="#" class="footer-category-link">Radiology</a>
+          <a href="#" class="footer-category-link">Obstetrics and Gynecology</a>
+          <a href="#" class="footer-category-link">Gastroenterology</a>
+          <a href="#" class="footer-category-link">Nephrology</a>
+          <a href="#" class="footer-category-link">Intensive Care Unit (ICU)</a>
+          <a href="#" class="footer-category-link">Dermatology</a>
+          <a href="#" class="footer-category-link">Pediatrics</a>
+          <a href="#" class="footer-category-link">Endocrinology</a>
+          <a href="#" class="footer-category-link">Neurology</a>
+          <a href="#" class="footer-category-link">Emergency Department (ER)</a>
+          <a href="#" class="footer-category-link">Orthopedics</a>
+          <a href="#" class="footer-category-link">Cardiology</a>
+          <a href="#" class="footer-category-link">many more.......</a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="footer-nav">
+
+      <div class="container">
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Popular Categories</h2>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Medi Care</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Health Care</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Departments</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Healthy Food</a>
+          </li>
+
+
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Products</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Medicine</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Mass Gainer</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Baby Care Product</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Cerelac</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Milk</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Our Company</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Delivery</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Legal Notice</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Terms and conditions</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">About us</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Secure payment</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Services</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Prices drop</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">New products</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Best sales</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Daily Sale</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Contact</h2>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <address class="content">
+              K-8 ,KALINGA NAGAR, GHATIKIA,
+              BHUBANESWAR, 751003, ODISHA
+            </address>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <a href="tel:+9106743500500" class="footer-nav-link">+91 0674 3 500</a>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <a href="mailto: sumum_bbsr@soahospitals.com" class="footer-nav-link">soahospital@gmail.com</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Follow Us</h2>
+          </li>
+
+          <li>
+            <ul class="social-link">
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <div class="container">
+
+        <img src="./assets/images/payment.png" alt="payment method" class="payment-img">
+
+        <p class="copyright">
+          Copyright &copy; <a href="#">Sum Ultimate Medicare</a> all rights reserved.
+        </p>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
